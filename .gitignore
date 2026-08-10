@@ -1,2 +1,29 @@
-# cache and other artifacts produced by Lean's Lake build tool
-.lake/
+# Power BI temporary/cache files
+*.tmp
+*.temp
+*.log
+
+# Power BI local/cache folders
+.cache/
+.temp/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Personal/local configuration
+*.local
+.env
+.env.*
+
+# Backup files
+*.bak
+*.backup
